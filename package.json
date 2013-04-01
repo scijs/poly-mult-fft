@@ -1,0 +1,33 @@
+{
+  "name": "poly-mult-fft",
+  "version": "0.0.0",
+  "description": "Multiplies polynomials together using an FFT",
+  "main": "multiply.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "numeric": "~1.2.6"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/poly-mult-fft.git"
+  },
+  "keywords": [
+    "fft",
+    "polynomial",
+    "multiply",
+    "foil",
+    "convolve"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d0527746e2592edc62c5a8d29a255e26d40d4542"
+}
