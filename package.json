@@ -1,25 +1,30 @@
 {
   "name": "poly-mult-fft",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Multiplies polynomials together using an FFT",
   "main": "multiply.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "numeric": "~1.2.6"
+    "ndarray": "^1.0.18",
+    "ndarray-ops": "^1.2.2",
+    "ndarray-complex": "^1.0.3",
+    "ndarray-fft": "^1.0.0"
   },
   "devDependencies": {
-    "tap": "~0.4.1"
+    "tape": "^4.0.0",
+    "test-fuzzy-array": "^1.0.1"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikolalysenko/poly-mult-fft.git"
+    "url": "git://github.com/scijs/poly-mult-fft.git"
   },
   "keywords": [
+    "scijs",
     "fft",
     "polynomial",
     "multiply",
@@ -29,5 +34,8 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "d0527746e2592edc62c5a8d29a255e26d40d4542"
+  "gitHead": "d0527746e2592edc62c5a8d29a255e26d40d4542",
+  "bugs": {
+    "url": "https://github.com/scijs/poly-mult-fft/issues"
+  }
 }
